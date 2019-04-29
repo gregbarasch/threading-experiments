@@ -27,7 +27,7 @@ int main(void)
 		clock_t stop = clock();
 
 		printf("SHARED VARIABLE:%d\n", shared_variable);
-        double time = (double)(stop - start) / (CLOCKS_PER_SEC);
+		double time = (double)(stop - start) / (CLOCKS_PER_SEC);
 		total += time;
 	}
 
