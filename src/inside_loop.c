@@ -10,7 +10,7 @@ pthread_mutex_t lock;
 
 int main(void)
 {
-    if (pthread_mutex_init(&lock, NULL) != 0) {
+	if (pthread_mutex_init(&lock, NULL) != 0) {
 		printf("\nMutex lock failure.\n");
 		return 1;
 	}
